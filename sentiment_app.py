@@ -29,7 +29,7 @@ def get_mood(input_text: str, *, threshold: float) -> Mood:
 
 
 def main():
-    st.title("Sentiment Analysis Web App")
+    st.title("Simple Sentiment Analysis Web App")
     st.write("Enter text and click the 'Analyze' button to analyze")
 
     text = st.text_area("Enter your text here:")
