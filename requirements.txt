@@ -1,0 +1,7 @@
+Create a virtual environment and then Install these  packages
+streamlit==0.89.0
+textblob==0.15.3
+
+You can run this by running the following command :
+streamlit sentiment_app.py
+
