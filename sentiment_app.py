@@ -37,11 +37,10 @@ def main():
 
 
 
-    if st.button("Analyze"):
-        if text:
-            mood = get_mood(text, threshold=threshold)
-            st.subheader("Sentiment Analysis Result")
-            st.write(f'Sentiment: {mood.emoji} ({mood.sentiment})')
+    if st.button("Analyze") and text:
+        mood = get_mood(text, threshold=threshold)
+        st.subheader("Sentiment Analysis Result")
+        st.write(f'Sentiment: {mood.emoji} ({mood.sentiment})')
 
 
 
